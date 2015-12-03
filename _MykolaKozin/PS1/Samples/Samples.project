@@ -90,22 +90,5 @@
       </Completion>
     </Configuration>
   </Settings>
-  <VirtualDirectory Name="src">
-    <File Name="adder.c"/>
-    <File Name="buggy-0.c"/>
-    <File Name="buggy-1.c"/>
-    <File Name="conditions-0.c"/>
-    <File Name="conditions-1.c"/>
-    <File Name="f2c.c"/>
-    <File Name="hello-0.c"/>
-    <File Name="hello-1.c"/>
-    <File Name="hello-2.c"/>
-    <File Name="iUnlock.c"/>
-    <File Name="nonswitch.c"/>
-    <File Name="positive.c"/>
-    <File Name="return.c"/>
-    <File Name="sizeof.c"/>
-    <File Name="switch.c"/>
-    <File Name="thadgavin.c"/>
-  </VirtualDirectory>
+  <VirtualDirectory Name="src"/>
 </CodeLite_Project>
