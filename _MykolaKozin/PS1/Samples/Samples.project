@@ -91,7 +91,6 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
-    <File Name="main.c"/>
     <File Name="adder.c"/>
     <File Name="buggy-0.c"/>
     <File Name="buggy-1.c"/>
