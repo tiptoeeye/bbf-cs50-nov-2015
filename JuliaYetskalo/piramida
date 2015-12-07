@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <cs50.h>
+
+int main(int argc, char **argv)
+{
+    printf("Enter the height of the half-pyramid(a non-negative integer no greater than 23): \n");
+    int n;
+    int m;
+    n=GetInt();
+    while (n<=0||n>23) {
+    if (n<=0||n>23) {printf("You have entered a negativ  or a greater than 23 number,please try again: \n");
+    n=GetInt();}}
+    int i;
+    int j;
+    for (i=1;i<=n;i++) { 
+        for (j=n;j>i;j--) printf(" ");
+        for (j=0;j<=i;j++) printf("#");
+        printf("\n");
+    }
+     
+     
+    return 0;
+}
