@@ -1,0 +1,1 @@
+./Debug/main.c.o ./Debug/_INCLUDES_cs50.c.o   
