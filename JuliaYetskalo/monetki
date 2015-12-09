@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <cs50.h>
+
+int main(int argc, char **argv)
+{
+    printf("Enter a non-negative float number: \n");
+    float n;
+    n=GetFloat();
+    while (n<=0) {
+   printf("You have entered a negativ number or 0 ,please try again: \n");
+    n=GetFloat();};
+    n=n*100;
+    int i;
+    i=(int)n;
+ 
+  printf("%i",(i/25)+((i%25)/10) + (((i%25)%10)/5)+((((i%25)%10)%5)/1));
+    
+
+     
+    }
+     printf("%i",j%a);*/
+    return 0;
+}
