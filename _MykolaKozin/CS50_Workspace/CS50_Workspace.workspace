@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="CS50_Workspace" Database="">
+  <Project Name="ProblemSet1" Path="ProblemSet1/ProblemSet1.project" Active="No"/>
+  <Project Name="CS50Templae" Path="CS50Templae/CS50Templae.project"/>
+  <Project Name="ProblemSet1_1" Path="ProblemSet1_1/ProblemSet1_1.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="ProblemSet1" ConfigName="Debug"/>
+      <Project Name="CS50Templae" ConfigName="Debug"/>
+      <Project Name="ProblemSet1_1" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="ProblemSet1" ConfigName="Release"/>
+      <Project Name="CS50Templae" ConfigName="Release"/>
+      <Project Name="ProblemSet1_1" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
