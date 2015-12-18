@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="ProblemSet1" Database="">
+  <Project Name="Mario" Path="Mario.project" Active="No"/>
+  <Project Name="Gready" Path="Gready/Gready.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="Mario" ConfigName="Debug"/>
+      <Project Name="Gready" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="Mario" ConfigName="Release"/>
+      <Project Name="Gready" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
