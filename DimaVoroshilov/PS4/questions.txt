@@ -1,0 +1,25 @@
+0.  BMP - 16m, GIF - 256, JPEG - 16m, PNG - 256t
+1.  GIF
+2.  Picture that has been lossy compressed can not be recovered to the original. 
+3.  BMP, JPEG
+4.  You grant system the rights to write new information over that place.
+5.  Write another information 1 or 2 times to that piece of memory.
+6.  stdint.h is a header file in the C standard library introduced in the 
+C99 standard library section 7.18 to allow programmers to write more portable 
+code by providing a set of typedefs that specify exact-width integer types
+7.  These types are used to parse bmp file. Aliased are created for them for 
+easy use.
+8.  BYTE - 1-byte, DWORD - 4-bytes, LONG - 4-bytes, WORD - 2-bytes
+9.  424d
+10. bfSize - the total size of bmp file in bytes, biSize - the number of bytes
+required by the structure
+11. If biHeight is negative, the bitmap is a top-down DIB and its origin is the 
+upper-left corner.
+12. biBitCount
+13. Due to permission issue for example.
+14. Cause we are looping through the file element by element to treat them 
+properly.
+15. 3
+16. Sets the file position indicator
+17. The current position indicator
+18. Rick Astley

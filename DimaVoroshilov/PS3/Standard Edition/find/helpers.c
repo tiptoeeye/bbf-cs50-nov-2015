@@ -18,7 +18,6 @@
 bool search(int value, int values[], int min, int max)
 {
     // TODO: implement a searching algorithm
-    bool result = false;  
     
     if (max < min) {
         return false;
@@ -27,17 +26,15 @@ bool search(int value, int values[], int min, int max)
         int midpoint = (min + max)/2;
         
         if (values[midpoint] < value) {
-            search(value, values, midpoint + 1, max);
+            return search(value, values, midpoint + 1, max);
         }
         else if (values[midpoint] > value) {
-            search(value, values, min, midpoint - 1);
+            return search(value, values, min, midpoint - 1);
         }
         else {
-            result = true;
+            return true;
         }
     }
-    
-    return result;
     
 }
 

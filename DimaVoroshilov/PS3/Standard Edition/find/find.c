@@ -20,7 +20,7 @@
 
 // maximum amount of hay
 const int MAX = 65536;
-
+ 
 int main(int argc, string argv[])
 {
     // ensure proper usage
@@ -40,7 +40,7 @@ int main(int argc, string argv[])
     for (size = 0; size < MAX; size++)
     {
         // wait for hay until EOF
-        printf("\nhaystack[%i] = ", size);
+        printf("haystack[%i] = ", size);
         int straw = GetInt();
         if (straw == INT_MAX)
         {
@@ -54,10 +54,11 @@ int main(int argc, string argv[])
 
     // sort the haystack
     sort(haystack, size);
+    printf("\n");
     for (int i = 0; i <= size - 1; i++) {
-        printf("\n%i = %i", i, haystack[i]);
+        printf("haystack[%i] = %i\n", i, haystack[i]);
     }
-
+ 
     int min = 0;
     int max = size - 1;
     
